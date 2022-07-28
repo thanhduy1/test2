@@ -19,7 +19,7 @@ require_once("connection.php");
 			if($count==1){
                 if($Quyen["role"]==1){
                     $_SESSION["loged"] = $userName; 
-				    header("location:../Admin/index.php");
+				    header("location:../ADMIN/index.php");
                 }
 				else{
                     $_SESSION["loged"] = $userName; 
